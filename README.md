@@ -1,5 +1,8 @@
-
 # 📈 Asisten Instrumen Keuangan (Financial Instruments AI Assistant)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbotkeuangan-kzdtthua7kvwc4box2fk4e.streamlit.app/)
+
+**🌐 Coba Aplikasi Secara Langsung (Live Demo):** [https://chatbotkeuangan-kzdtthua7kvwc4box2fk4e.streamlit.app/](https://chatbotkeuangan-kzdtthua7kvwc4box2fk4e.streamlit.app/)
 
 Proyek ini adalah implementasi chatbot berbasis AI yang bertindak sebagai Asisten Virtual spesifik untuk topik instrumen keuangan, trading, dan investasi. Aplikasi ini dikembangkan sebagai **Final Project** untuk program **LLM-Based Tools and Gemini API Integration for Data Scientists** di **Hacktiv8**.
 
@@ -11,10 +14,10 @@ Aplikasi ini ditenagai oleh model multimodal Google Gemini melalui LangChain, di
 
 * **Kategori Bot:** *Financial & Investment Educational Assistant* (Asisten Edukasi Keuangan dan Investasi).
 * **Domain Fokus:** Terbatas pada instrumen keuangan (saham, forex, kripto, komoditas, reksa dana, obligasi), analisis teknikal/fundamental, mekanisme pasar, dan manajemen risiko.
-* **Guardrails (Batasan Sistem):**
+* **Guardrails (Batasan Sistem):** 
   1. Chatbot secara otomatis akan menolak pertanyaan di luar topik investasi atau trading.
   2. Chatbot diinstruksikan untuk selalu menggunakan **Web Search Tool** jika mendeteksi pertanyaan terkait harga terkini, kurs, atau berita pasar hari ini.
-
+  
 > **⚠️ Disclaimer:** Chatbot ini dirancang khusus untuk tujuan **edukasi**. Chatbot ini **bukan penasihat keuangan berlisensi** dan tidak memberikan saran keputusan beli/jual secara pasti. Segala risiko keputusan finansial tetap berada di tangan pengguna.
 
 ---
@@ -54,8 +57,9 @@ Proyek ini menerapkan berbagai konfigurasi parameter kreatif dan fitur tingkat l
 
 ## 💻 Cara Menjalankan Aplikasi Secara Lokal
 
+Jika kamu ingin menjalankan proyek ini di mesin lokal kamu sendiri, ikuti langkah-langkah berikut:
+
 1. **Clone Repositori:**
    ```bash
    git clone [https://github.com/USERNAME/NAMA_REPOSITORI.git](https://github.com/USERNAME/NAMA_REPOSITORI.git)
    cd NAMA_REPOSITORI
-   ```
